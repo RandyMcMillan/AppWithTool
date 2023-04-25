@@ -14,6 +14,8 @@
 		4B542C5429F88D22000A03AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C5329F88D22000A03AF /* main.m */; };
 		4B542C5F29F88D23000A03AF /* AppWithToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C5E29F88D23000A03AF /* AppWithToolTests.m */; };
 		4B542C6A29F88D23000A03AF /* AppWithToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C6929F88D23000A03AF /* AppWithToolUITests.m */; };
+		4B542C8A29F88E6B000A03AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C8929F88E6B000A03AF /* main.m */; };
+		4B542CBE29F89419000A03AF /* ToolX in Embed Helper Tools */ = {isa = PBXBuildFile; fileRef = 4B542C8729F88E6B000A03AF /* ToolX */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +33,37 @@
 			remoteGlobalIDString = 4B542C4329F88D1E000A03AF;
 			remoteInfo = AppWithTool;
 		};
+		4B542CAB29F89320000A03AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B542C3C29F88D1E000A03AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B542C8629F88E6B000A03AF;
+			remoteInfo = ToolX;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B542C8529F88E6B000A03AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4B542CB529F89373000A03AF /* Embed Helper Tools */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				4B542CBE29F89419000A03AF /* ToolX in Embed Helper Tools */,
+			);
+			name = "Embed Helper Tools";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4B542C4429F88D1F000A03AF /* AppWithTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWithTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +82,9 @@
 		4B542C6529F88D23000A03AF /* AppWithToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppWithToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B542C6929F88D23000A03AF /* AppWithToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppWithToolUITests.m; sourceTree = "<group>"; };
 		4B542C6B29F88D23000A03AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B542C8729F88E6B000A03AF /* ToolX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ToolX; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B542C8929F88E6B000A03AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B542CA629F891A0000A03AF /* ToolX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ToolX.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +109,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4B542C8429F88E6B000A03AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,6 +125,7 @@
 				4B542C4629F88D1F000A03AF /* AppWithTool */,
 				4B542C5D29F88D23000A03AF /* AppWithToolTests */,
 				4B542C6829F88D23000A03AF /* AppWithToolUITests */,
+				4B542C8829F88E6B000A03AF /* ToolX */,
 				4B542C4529F88D1F000A03AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,6 +136,7 @@
 				4B542C4429F88D1F000A03AF /* AppWithTool.app */,
 				4B542C5A29F88D23000A03AF /* AppWithToolTests.xctest */,
 				4B542C6529F88D23000A03AF /* AppWithToolUITests.xctest */,
+				4B542C8729F88E6B000A03AF /* ToolX */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +175,15 @@
 			path = AppWithToolUITests;
 			sourceTree = "<group>";
 		};
+		4B542C8829F88E6B000A03AF /* ToolX */ = {
+			isa = PBXGroup;
+			children = (
+				4B542CA629F891A0000A03AF /* ToolX.entitlements */,
+				4B542C8929F88E6B000A03AF /* main.m */,
+			);
+			path = ToolX;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,10 +194,12 @@
 				4B542C4029F88D1E000A03AF /* Sources */,
 				4B542C4129F88D1E000A03AF /* Frameworks */,
 				4B542C4229F88D1E000A03AF /* Resources */,
+				4B542CB529F89373000A03AF /* Embed Helper Tools */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4B542CAC29F89320000A03AF /* PBXTargetDependency */,
 			);
 			name = AppWithTool;
 			productName = AppWithTool;
@@ -187,6 +242,23 @@
 			productReference = 4B542C6529F88D23000A03AF /* AppWithToolUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		4B542C8629F88E6B000A03AF /* ToolX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B542C8B29F88E6B000A03AF /* Build configuration list for PBXNativeTarget "ToolX" */;
+			buildPhases = (
+				4B542C8329F88E6B000A03AF /* Sources */,
+				4B542C8429F88E6B000A03AF /* Frameworks */,
+				4B542C8529F88E6B000A03AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToolX;
+			productName = ToolX;
+			productReference = 4B542C8729F88E6B000A03AF /* ToolX */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +278,9 @@
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 4B542C4329F88D1E000A03AF;
 					};
+					4B542C8629F88E6B000A03AF = {
+						CreatedOnToolsVersion = 12.4;
+					};
 				};
 			};
 			buildConfigurationList = 4B542C3F29F88D1E000A03AF /* Build configuration list for PBXProject "AppWithTool" */;
@@ -224,6 +299,7 @@
 				4B542C4329F88D1E000A03AF /* AppWithTool */,
 				4B542C5929F88D23000A03AF /* AppWithToolTests */,
 				4B542C6429F88D23000A03AF /* AppWithToolUITests */,
+				4B542C8629F88E6B000A03AF /* ToolX */,
 			);
 		};
 /* End PBXProject section */
@@ -281,6 +357,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4B542C8329F88E6B000A03AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B542C8A29F88E6B000A03AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +377,11 @@
 			isa = PBXTargetDependency;
 			target = 4B542C4329F88D1E000A03AF /* AppWithTool */;
 			targetProxy = 4B542C6629F88D23000A03AF /* PBXContainerItemProxy */;
+		};
+		4B542CAC29F89320000A03AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B542C8629F88E6B000A03AF /* ToolX */;
+			targetProxy = 4B542CAB29F89320000A03AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -537,6 +626,38 @@
 			};
 			name = Release;
 		};
+		4B542C8C29F88E6B000A03AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ToolX/ToolX.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QP9MSC9X74;
+				ENABLE_HARDENED_RUNTIME = YES;
+				OTHER_CODE_SIGN_FLAGS = "$(inherited) -i $(PRODUCT_BUNDLE_IDENTIFIER)";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.bitcoincore.app-with-tool.AppWithTool.ToolX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4B542C8D29F88E6B000A03AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ToolX/ToolX.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QP9MSC9X74;
+				ENABLE_HARDENED_RUNTIME = YES;
+				OTHER_CODE_SIGN_FLAGS = "$(inherited) -i $(PRODUCT_BUNDLE_IDENTIFIER)";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.bitcoincore.app-with-tool.AppWithTool.ToolX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -572,6 +693,15 @@
 			buildConfigurations = (
 				4B542C7529F88D23000A03AF /* Debug */,
 				4B542C7629F88D23000A03AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B542C8B29F88E6B000A03AF /* Build configuration list for PBXNativeTarget "ToolX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B542C8C29F88E6B000A03AF /* Debug */,
+				4B542C8D29F88E6B000A03AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
