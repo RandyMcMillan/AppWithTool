@@ -195,6 +195,7 @@
 				4B542C4129F88D1E000A03AF /* Frameworks */,
 				4B542C4229F88D1E000A03AF /* Resources */,
 				4B542CB529F89373000A03AF /* Embed Helper Tools */,
+				4B542CC729F89763000A03AF /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -329,6 +330,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B542CC729F89763000A03AF /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/AppWithTool.app",
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "rm -rf **.log\n\n## LOG=codesign.log\n## export LOG\n## echo -e $(date +%s):$SRCROOT > $SRCROOT/$LOG\n## echo -e \"\\n\" >> $SRCROOT/$LOG\n## codesign  --display --verbose=4  -d -vvv --entitlements :- $SRCROOT/Build/Products/Debug/AppWithTool.app >> $SRCROOT/$LOG\n\nhexdump -c $SRCROOT/Build/Products/Debug/AppWithTool.app/Contents/MacOS/AppWithTool > $SRCROOT/AppWithTool-hexdump.log\nhexdump -c $SRCROOT/Build/Products/Debug/AppWithTool.app/Contents/MacOS/ToolX > $SRCROOT/ToolX-hexdump.log\n##\n## open $SRCROOT/**.log\ntouch $SRCROOT/Build/Products/.gitkeep\ntouch $SRCROOT/Build/Products/Debug/.gitkeep\ngit add -f **.log \n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4B542C4029F88D1E000A03AF /* Sources */ = {
