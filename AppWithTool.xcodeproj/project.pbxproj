@@ -16,8 +16,9 @@
 		4B542C6A29F88D23000A03AF /* AppWithToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C6929F88D23000A03AF /* AppWithToolUITests.m */; };
 		4B542C8A29F88E6B000A03AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C8929F88E6B000A03AF /* main.m */; };
 		4B542CBE29F89419000A03AF /* ToolX in Embed Helper Tools */ = {isa = PBXBuildFile; fileRef = 4B542C8729F88E6B000A03AF /* ToolX */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4BD59FE92A1444420041CB20 /* Script.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4BD59FE82A1444420041CB20 /* Script.sh */; };
 		4BD59FEF2A1444880041CB20 /* Script.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4BD59FE82A1444420041CB20 /* Script.sh */; };
+		4BD5A0142A1449D00041CB20 /* ToolX in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B542C8729F88E6B000A03AF /* ToolX */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4BD5A0252A144A6B0041CB20 /* ToolX in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B542C8729F88E6B000A03AF /* ToolX */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,12 +48,13 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		4B542C8529F88E6B000A03AF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 12;
 			files = (
+				4BD5A0142A1449D00041CB20 /* ToolX in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4B542CB529F89373000A03AF /* Embed Helper Tools */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -71,6 +73,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 12;
 			files = (
+				4BD5A0252A144A6B0041CB20 /* ToolX in CopyFiles */,
 				4BD59FEF2A1444880041CB20 /* Script.sh in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,7 +328,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BD59FE92A1444420041CB20 /* Script.sh in Resources */,
 				4B542C4E29F88D22000A03AF /* Assets.xcassets in Resources */,
 				4B542C5129F88D22000A03AF /* Main.storyboard in Resources */,
 			);
@@ -678,7 +680,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.AppWithTool.ToolX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
@@ -695,7 +697,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.AppWithTool.ToolX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};
