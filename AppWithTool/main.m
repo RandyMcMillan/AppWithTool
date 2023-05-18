@@ -6,16 +6,25 @@
 //
 
 //REF: https://developer.apple.com/forums/thread/106590
+
+//main.h
+#import <Foundation/Foundation.h>
 #import <Cocoa/Cocoa.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include "execv_bridge.h"
 
-int execv(const char *path, char *const argv[]);
-int execve(const char *path, char *const argv[], char *const envp[]);
-int execvp(const char *file, char *const argv[]);
-int execvpe(const char *file, char *const argv[], char *const envp[]);
+//int execv(const char *path, char *const argv[]);
+//int execve(const char *path, char *const argv[], char *const envp[]);
+//int execvp(const char *file, char *const argv[]);
+//int execvpe(const char *file, char *const argv[], char *const envp[]);
+
 void runScript(NSString* scriptName);
+//main.h end
+//#import main.h
 
-
-int execv(const char *path, char *const argv[]){ return 0; }
 int execve(const char *path, char *const argv[], char *const envp[]){ return 0; }
 int execvp(const char *file, char *const argv[]){ return 0; }
 int execvpe(const char *file, char *const argv[], char *const envp[]){ return 0; }
@@ -49,13 +58,10 @@ void runScript(NSString* scriptName)
     string = [[NSString alloc] initWithData: data encoding: NSUTF8StringEncoding];
     NSLog (@"script returned:\n%@", string);
 }
-//------------------------------------------------------
 
-
-int main(int argc, const char * argv[]) {
+int main(int argc, char const *argv[]) {
     @autoreleasepool {
-        // Setup code that might create autoreleased objects goes here.
-        runScript(@"Script.sh");
+        execv_bridge(&argc,(char *const *)argv);
     }
     return NSApplicationMain(argc, argv);
 }

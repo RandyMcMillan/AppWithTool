@@ -6,6 +6,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#include "../AppWithTool/execv_bridge.h"
 
 @interface AppWithToolUITests : XCTestCase
 

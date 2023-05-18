@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B3549F32A14822E00F4FF5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C5329F88D22000A03AF /* main.m */; };
+		4B354A182A1482B100F4FF5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B354A132A1482B100F4FF5A /* Foundation.framework */; };
+		4B354A1A2A14830000F4FF5A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B354A192A14830000F4FF5A /* Cocoa.framework */; };
+		4B354A272A14835A00F4FF5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C8929F88E6B000A03AF /* main.m */; };
+		4B354A382A14841200F4FF5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B354A132A1482B100F4FF5A /* Foundation.framework */; };
+		4B354A392A14841800F4FF5A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B354A192A14830000F4FF5A /* Cocoa.framework */; };
+		4B354A772A14929200F4FF5A /* template.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4B354A762A14929200F4FF5A /* template.sh */; };
+		4B354A7C2A1492A200F4FF5A /* template.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B354A762A14929200F4FF5A /* template.sh */; };
 		4B542C4929F88D1F000A03AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C4829F88D1F000A03AF /* AppDelegate.m */; };
 		4B542C4C29F88D1F000A03AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C4B29F88D1F000A03AF /* ViewController.m */; };
 		4B542C4E29F88D22000A03AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B542C4D29F88D22000A03AF /* Assets.xcassets */; };
 		4B542C5129F88D22000A03AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B542C4F29F88D22000A03AF /* Main.storyboard */; };
-		4B542C5429F88D22000A03AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C5329F88D22000A03AF /* main.m */; };
 		4B542C5F29F88D23000A03AF /* AppWithToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C5E29F88D23000A03AF /* AppWithToolTests.m */; };
 		4B542C6A29F88D23000A03AF /* AppWithToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C6929F88D23000A03AF /* AppWithToolUITests.m */; };
-		4B542C8A29F88E6B000A03AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C8929F88E6B000A03AF /* main.m */; };
 		4B542CBE29F89419000A03AF /* ToolX in Embed Helper Tools */ = {isa = PBXBuildFile; fileRef = 4B542C8729F88E6B000A03AF /* ToolX */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4B726E692A1662D2002502E4 /* execv_bridge.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B726E682A1662D2002502E4 /* execv_bridge.c */; };
+		4B726E6A2A1662D2002502E4 /* execv_bridge.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B726E682A1662D2002502E4 /* execv_bridge.c */; };
+		4B726E732A166908002502E4 /* logargv.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B726E722A166908002502E4 /* logargv.c */; };
+		4B726E742A166908002502E4 /* logargv.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B726E722A166908002502E4 /* logargv.c */; };
+		4B726E772A166D88002502E4 /* logargc.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B726E762A166D88002502E4 /* logargc.c */; };
+		4B726E782A166D88002502E4 /* logargc.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B726E762A166D88002502E4 /* logargc.c */; };
+		4B726E7B2A169178002502E4 /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B726E7A2A169178002502E4 /* test.c */; };
 		4BD59FEF2A1444880041CB20 /* Script.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4BD59FE82A1444420041CB20 /* Script.sh */; };
 		4BD5A0142A1449D00041CB20 /* ToolX in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B542C8729F88E6B000A03AF /* ToolX */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4BD5A0252A144A6B0041CB20 /* ToolX in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B542C8729F88E6B000A03AF /* ToolX */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4B3549FE2A14826600F4FF5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B542C3C29F88D1E000A03AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B542C8629F88E6B000A03AF;
+			remoteInfo = ToolX;
+		};
 		4B542C5B29F88D23000A03AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4B542C3C29F88D1E000A03AF /* Project object */;
@@ -35,13 +55,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 4B542C4329F88D1E000A03AF;
 			remoteInfo = AppWithTool;
-		};
-		4B542CAB29F89320000A03AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B542C3C29F88D1E000A03AF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4B542C8629F88E6B000A03AF;
-			remoteInfo = ToolX;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -73,6 +86,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 12;
 			files = (
+				4B354A7C2A1492A200F4FF5A /* template.sh in CopyFiles */,
 				4BD5A0252A144A6B0041CB20 /* ToolX in CopyFiles */,
 				4BD59FEF2A1444880041CB20 /* Script.sh in CopyFiles */,
 			);
@@ -81,6 +95,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B354A132A1482B100F4FF5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B354A192A14830000F4FF5A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4B354A762A14929200F4FF5A /* template.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = template.sh; path = AppWithTool/template.sh; sourceTree = "<group>"; };
 		4B542C4429F88D1F000A03AF /* AppWithTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppWithTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B542C4729F88D1F000A03AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B542C4829F88D1F000A03AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,6 +117,14 @@
 		4B542C8729F88E6B000A03AF /* ToolX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ToolX; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B542C8929F88E6B000A03AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B542CA629F891A0000A03AF /* ToolX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ToolX.entitlements; sourceTree = "<group>"; };
+		4B726E672A1662D2002502E4 /* execv_bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = execv_bridge.h; sourceTree = "<group>"; };
+		4B726E682A1662D2002502E4 /* execv_bridge.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = execv_bridge.c; sourceTree = "<group>"; };
+		4B726E712A166908002502E4 /* logargv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logargv.h; sourceTree = "<group>"; };
+		4B726E722A166908002502E4 /* logargv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = logargv.c; sourceTree = "<group>"; };
+		4B726E752A166D88002502E4 /* logargc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logargc.h; sourceTree = "<group>"; };
+		4B726E762A166D88002502E4 /* logargc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = logargc.c; sourceTree = "<group>"; };
+		4B726E792A169178002502E4 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		4B726E7A2A169178002502E4 /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
 		4BD59FE82A1444420041CB20 /* Script.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = Script.sh; path = AppWithTool/Script.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +133,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B354A392A14841800F4FF5A /* Cocoa.framework in Frameworks */,
+				4B354A382A14841200F4FF5A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,21 +156,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B354A1A2A14830000F4FF5A /* Cocoa.framework in Frameworks */,
+				4B354A182A1482B100F4FF5A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B354A122A1482B000F4FF5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B354A192A14830000F4FF5A /* Cocoa.framework */,
+				4B354A132A1482B100F4FF5A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4B542C3B29F88D1E000A03AF = {
 			isa = PBXGroup;
 			children = (
+				4B354A762A14929200F4FF5A /* template.sh */,
 				4BD59FE82A1444420041CB20 /* Script.sh */,
 				4B542C4629F88D1F000A03AF /* AppWithTool */,
 				4B542C5D29F88D23000A03AF /* AppWithToolTests */,
 				4B542C6829F88D23000A03AF /* AppWithToolUITests */,
 				4B542C8829F88E6B000A03AF /* ToolX */,
 				4B542C4529F88D1F000A03AF /* Products */,
+				4B354A122A1482B000F4FF5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +209,14 @@
 				4B542C4F29F88D22000A03AF /* Main.storyboard */,
 				4B542C5229F88D22000A03AF /* Info.plist */,
 				4B542C5329F88D22000A03AF /* main.m */,
+				4B726E752A166D88002502E4 /* logargc.h */,
+				4B726E762A166D88002502E4 /* logargc.c */,
+				4B726E712A166908002502E4 /* logargv.h */,
+				4B726E722A166908002502E4 /* logargv.c */,
+				4B726E672A1662D2002502E4 /* execv_bridge.h */,
+				4B726E682A1662D2002502E4 /* execv_bridge.c */,
+				4B726E792A169178002502E4 /* test.h */,
+				4B726E7A2A169178002502E4 /* test.c */,
 				4B542C5529F88D22000A03AF /* AppWithTool.entitlements */,
 			);
 			path = AppWithTool;
@@ -218,7 +266,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4B542CAC29F89320000A03AF /* PBXTargetDependency */,
+				4B3549FF2A14826600F4FF5A /* PBXTargetDependency */,
 			);
 			name = AppWithTool;
 			productName = AppWithTool;
@@ -329,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B542C4E29F88D22000A03AF /* Assets.xcassets in Resources */,
+				4B354A772A14929200F4FF5A /* template.sh in Resources */,
 				4B542C5129F88D22000A03AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,7 +416,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "rm -rf **.log\n\n## LOG=codesign.log\n## export LOG\n## echo -e $(date +%s):$SRCROOT > $SRCROOT/$LOG\n## echo -e \"\\n\" >> $SRCROOT/$LOG\n## codesign  --display --verbose=4  -d -vvv --entitlements :- $SRCROOT/Build/Products/Debug/AppWithTool.app >> $SRCROOT/$LOG\n\nhexdump -c $SRCROOT/Build/Products/Debug/AppWithTool.app/Contents/MacOS/AppWithTool > $SRCROOT/AppWithTool-hexdump.log\nhexdump -c $SRCROOT/Build/Products/Debug/AppWithTool.app/Contents/MacOS/ToolX > $SRCROOT/ToolX-hexdump.log\n##\n## open $SRCROOT/**.log\ntouch $SRCROOT/Build/Products/.gitkeep\ntouch $SRCROOT/Build/Products/Debug/.gitkeep\ngit add -f **.log\n##git commit -m \"$(date +%s)\" -m \"hexdump -c of AppWithTool and ToolX\" || echo\n";
+			shellScript = "rm -rf **.log\n\n## LOG=codesign.log\n## export LOG\n## echo -e $(date +%s):$SRCROOT > $SRCROOT/$LOG\n## echo -e \"\\n\" >> $SRCROOT/$LOG\n## codesign  --display --verbose=4  -d -vvv --entitlements :- $SRCROOT/Build/Products/Debug/AppWithTool.app >> $SRCROOT/$LOG\n\nhexdump -c $SRCROOT/Build/Products/Debug/AppWithTool.app/Contents/MacOS/AppWithTool > $SRCROOT/AppWithTool-hexdump.log\nhexdump -c $SRCROOT/Build/Products/Debug/AppWithTool.app/Contents/MacOS/ToolX > $SRCROOT/ToolX-hexdump.log\n##\n## open $SRCROOT/**.log\ntouch $SRCROOT/Build/Products/.gitkeep\ntouch $SRCROOT/Build/Products/Debug/.gitkeep\n## git add -f **.log\n## git commit -m \"$(date +%s)\" -m \"hexdump -c of AppWithTool and ToolX\" || echo\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -376,8 +425,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B3549F32A14822E00F4FF5A /* main.m in Sources */,
+				4B726E772A166D88002502E4 /* logargc.c in Sources */,
 				4B542C4C29F88D1F000A03AF /* ViewController.m in Sources */,
-				4B542C5429F88D22000A03AF /* main.m in Sources */,
+				4B726E732A166908002502E4 /* logargv.c in Sources */,
+				4B726E692A1662D2002502E4 /* execv_bridge.c in Sources */,
 				4B542C4929F88D1F000A03AF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B542C5F29F88D23000A03AF /* AppWithToolTests.m in Sources */,
+				4B726E7B2A169178002502E4 /* test.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,13 +455,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B542C8A29F88E6B000A03AF /* main.m in Sources */,
+				4B726E6A2A1662D2002502E4 /* execv_bridge.c in Sources */,
+				4B726E782A166D88002502E4 /* logargc.c in Sources */,
+				4B726E742A166908002502E4 /* logargv.c in Sources */,
+				4B354A272A14835A00F4FF5A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4B3549FF2A14826600F4FF5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B542C8629F88E6B000A03AF /* ToolX */;
+			targetProxy = 4B3549FE2A14826600F4FF5A /* PBXContainerItemProxy */;
+		};
 		4B542C5C29F88D23000A03AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4B542C4329F88D1E000A03AF /* AppWithTool */;
@@ -418,11 +479,6 @@
 			isa = PBXTargetDependency;
 			target = 4B542C4329F88D1E000A03AF /* AppWithTool */;
 			targetProxy = 4B542C6629F88D23000A03AF /* PBXContainerItemProxy */;
-		};
-		4B542CAC29F89320000A03AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4B542C8629F88E6B000A03AF /* ToolX */;
-			targetProxy = 4B542CAB29F89320000A03AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -489,7 +545,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -542,7 +598,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -555,6 +611,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = AppWithTool/AppWithTool.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = QP9MSC9X74;
@@ -564,7 +621,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.AppWithTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -576,6 +633,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = AppWithTool/AppWithTool.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = QP9MSC9X74;
@@ -585,7 +643,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.AppWithTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -595,16 +653,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = QP9MSC9X74;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppWithToolTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.bitcoincore.app-with-tool.AppWithToolTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppWithTool.app/Contents/MacOS/AppWithTool";
@@ -615,16 +674,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = QP9MSC9X74;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppWithToolTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.bitcoincore.app-with-tool.AppWithToolTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppWithTool.app/Contents/MacOS/AppWithTool";
@@ -634,9 +694,10 @@
 		4B542C7529F88D23000A03AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = QP9MSC9X74;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppWithToolUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -652,9 +713,10 @@
 		4B542C7629F88D23000A03AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = QP9MSC9X74;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AppWithToolUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -671,7 +733,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ToolX/ToolX.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QP9MSC9X74;
@@ -688,7 +750,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ToolX/ToolX.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QP9MSC9X74;
