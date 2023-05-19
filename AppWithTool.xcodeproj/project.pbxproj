@@ -20,7 +20,6 @@
 		4B542C4E29F88D22000A03AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B542C4D29F88D22000A03AF /* Assets.xcassets */; };
 		4B542C5129F88D22000A03AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B542C4F29F88D22000A03AF /* Main.storyboard */; };
 		4B542C5F29F88D23000A03AF /* AppWithToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C5E29F88D23000A03AF /* AppWithToolTests.m */; };
-		4B542C6A29F88D23000A03AF /* AppWithToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C6929F88D23000A03AF /* AppWithToolUITests.m */; };
 		4B542CBE29F89419000A03AF /* ToolX in Embed Helper Tools */ = {isa = PBXBuildFile; fileRef = 4B542C8729F88E6B000A03AF /* ToolX */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4B726E692A1662D2002502E4 /* execv_bridge.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B726E682A1662D2002502E4 /* execv_bridge.c */; };
 		4B726E6A2A1662D2002502E4 /* execv_bridge.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B726E682A1662D2002502E4 /* execv_bridge.c */; };
@@ -29,6 +28,10 @@
 		4B726E772A166D88002502E4 /* logargc.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B726E762A166D88002502E4 /* logargc.c */; };
 		4B726E782A166D88002502E4 /* logargc.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B726E762A166D88002502E4 /* logargc.c */; };
 		4B726E7B2A169178002502E4 /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B726E7A2A169178002502E4 /* test.c */; };
+		4BBDA5B22A17C9A6003BEB68 /* AppWithToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C5E29F88D23000A03AF /* AppWithToolTests.m */; };
+		4BBDA5B32A17C9A6003BEB68 /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B726E7A2A169178002502E4 /* test.c */; };
+		4BBDA5BB2A17CAA4003BEB68 /* AppWithToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C6929F88D23000A03AF /* AppWithToolUITests.m */; };
+		4BBDA5BF2A17CC4A003BEB68 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BBDA5BE2A17CC4A003BEB68 /* XCTest.framework */; };
 		4BC67A362A1707CA004F106C /* execcl_bridge.c in Sources */ = {isa = PBXBuildFile; fileRef = 4BC67A342A1707CA004F106C /* execcl_bridge.c */; };
 		4BC67A432A170874004F106C /* execcl_bridge.c in Sources */ = {isa = PBXBuildFile; fileRef = 4BC67A342A1707CA004F106C /* execcl_bridge.c */; };
 		4BD59FEF2A1444880041CB20 /* Script.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4BD59FE82A1444420041CB20 /* Script.sh */; };
@@ -51,12 +54,26 @@
 			remoteGlobalIDString = 4B542C4329F88D1E000A03AF;
 			remoteInfo = AppWithTool;
 		};
-		4B542C6629F88D23000A03AF /* PBXContainerItemProxy */ = {
+		4BBDA5B02A17C9A6003BEB68 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4B542C3C29F88D1E000A03AF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4B542C4329F88D1E000A03AF;
 			remoteInfo = AppWithTool;
+		};
+		4BBDA5C02A17CCEE003BEB68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B542C3C29F88D1E000A03AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B542C8629F88E6B000A03AF;
+			remoteInfo = ToolX;
+		};
+		4BBDA5C22A17CD62003BEB68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B542C3C29F88D1E000A03AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B542C8629F88E6B000A03AF;
+			remoteInfo = ToolX;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -113,7 +130,6 @@
 		4B542C5A29F88D23000A03AF /* AppWithToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppWithToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B542C5E29F88D23000A03AF /* AppWithToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppWithToolTests.m; sourceTree = "<group>"; };
 		4B542C6029F88D23000A03AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B542C6529F88D23000A03AF /* AppWithToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppWithToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B542C6929F88D23000A03AF /* AppWithToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppWithToolUITests.m; sourceTree = "<group>"; };
 		4B542C6B29F88D23000A03AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B542C8729F88E6B000A03AF /* ToolX */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ToolX; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +143,10 @@
 		4B726E762A166D88002502E4 /* logargc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = logargc.c; sourceTree = "<group>"; };
 		4B726E792A169178002502E4 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
 		4B726E7A2A169178002502E4 /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		4BBDA5AD2A17BC9F003BEB68 /* async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = async.h; path = async.h/async/async.h; sourceTree = "<group>"; };
+		4BBDA5B92A17C9A6003BEB68 /* AppWithToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppWithToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BBDA5BA2A17C9A6003BEB68 /* AppWithToolTests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AppWithToolTests copy-Info.plist"; path = "/Volumes/DSiMStorage/AppWithTool/AppWithToolTests copy-Info.plist"; sourceTree = "<absolute>"; };
+		4BBDA5BE2A17CC4A003BEB68 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4BC67A242A170789004F106C /* execcl_bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = execcl_bridge.h; sourceTree = "<group>"; };
 		4BC67A342A1707CA004F106C /* execcl_bridge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = execcl_bridge.c; sourceTree = "<group>"; };
 		4BC67A5C2A17181B004F106C /* async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = async.h; path = async.h/async/async.h; sourceTree = SOURCE_ROOT; };
@@ -150,13 +170,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B542C6229F88D23000A03AF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4B542C8429F88E6B000A03AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -166,12 +179,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4BBDA5B42A17C9A6003BEB68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBDA5BF2A17CC4A003BEB68 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		4B354A122A1482B000F4FF5A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4BBDA5BE2A17CC4A003BEB68 /* XCTest.framework */,
 				4B354A192A14830000F4FF5A /* Cocoa.framework */,
 				4B354A132A1482B100F4FF5A /* Foundation.framework */,
 			);
@@ -181,6 +203,7 @@
 		4B542C3B29F88D1E000A03AF = {
 			isa = PBXGroup;
 			children = (
+				4BBDA5AD2A17BC9F003BEB68 /* async.h */,
 				4B354A762A14929200F4FF5A /* template.sh */,
 				4BD59FE82A1444420041CB20 /* Script.sh */,
 				4B542C4629F88D1F000A03AF /* AppWithTool */,
@@ -189,6 +212,7 @@
 				4B542C8829F88E6B000A03AF /* ToolX */,
 				4B542C4529F88D1F000A03AF /* Products */,
 				4B354A122A1482B000F4FF5A /* Frameworks */,
+				4BBDA5BA2A17C9A6003BEB68 /* AppWithToolTests copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,8 +221,8 @@
 			children = (
 				4B542C4429F88D1F000A03AF /* AppWithTool.app */,
 				4B542C5A29F88D23000A03AF /* AppWithToolTests.xctest */,
-				4B542C6529F88D23000A03AF /* AppWithToolUITests.xctest */,
 				4B542C8729F88E6B000A03AF /* ToolX */,
+				4BBDA5B92A17C9A6003BEB68 /* AppWithToolUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -292,30 +316,13 @@
 			buildRules = (
 			);
 			dependencies = (
+				4BBDA5C12A17CCEE003BEB68 /* PBXTargetDependency */,
 				4B542C5C29F88D23000A03AF /* PBXTargetDependency */,
 			);
 			name = AppWithToolTests;
 			productName = AppWithToolTests;
 			productReference = 4B542C5A29F88D23000A03AF /* AppWithToolTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4B542C6429F88D23000A03AF /* AppWithToolUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B542C7429F88D23000A03AF /* Build configuration list for PBXNativeTarget "AppWithToolUITests" */;
-			buildPhases = (
-				4B542C6129F88D23000A03AF /* Sources */,
-				4B542C6229F88D23000A03AF /* Frameworks */,
-				4B542C6329F88D23000A03AF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4B542C6729F88D23000A03AF /* PBXTargetDependency */,
-			);
-			name = AppWithToolUITests;
-			productName = AppWithToolUITests;
-			productReference = 4B542C6529F88D23000A03AF /* AppWithToolUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		4B542C8629F88E6B000A03AF /* ToolX */ = {
 			isa = PBXNativeTarget;
@@ -334,6 +341,25 @@
 			productReference = 4B542C8729F88E6B000A03AF /* ToolX */;
 			productType = "com.apple.product-type.tool";
 		};
+		4BBDA5AE2A17C9A6003BEB68 /* AppWithToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BBDA5B62A17C9A6003BEB68 /* Build configuration list for PBXNativeTarget "AppWithToolUITests" */;
+			buildPhases = (
+				4BBDA5B12A17C9A6003BEB68 /* Sources */,
+				4BBDA5B42A17C9A6003BEB68 /* Frameworks */,
+				4BBDA5B52A17C9A6003BEB68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BBDA5C32A17CD62003BEB68 /* PBXTargetDependency */,
+				4BBDA5AF2A17C9A6003BEB68 /* PBXTargetDependency */,
+			);
+			name = AppWithToolUITests;
+			productName = AppWithToolTests;
+			productReference = 4BBDA5B92A17C9A6003BEB68 /* AppWithToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -346,10 +372,6 @@
 						CreatedOnToolsVersion = 12.4;
 					};
 					4B542C5929F88D23000A03AF = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 4B542C4329F88D1E000A03AF;
-					};
-					4B542C6429F88D23000A03AF = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 4B542C4329F88D1E000A03AF;
 					};
@@ -373,7 +395,7 @@
 			targets = (
 				4B542C4329F88D1E000A03AF /* AppWithTool */,
 				4B542C5929F88D23000A03AF /* AppWithToolTests */,
-				4B542C6429F88D23000A03AF /* AppWithToolUITests */,
+				4BBDA5AE2A17C9A6003BEB68 /* AppWithToolUITests */,
 				4B542C8629F88E6B000A03AF /* ToolX */,
 			);
 		};
@@ -397,7 +419,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B542C6329F88D23000A03AF /* Resources */ = {
+		4BBDA5B52A17C9A6003BEB68 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -452,14 +474,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B542C6129F88D23000A03AF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B542C6A29F88D23000A03AF /* AppWithToolUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4B542C8329F88E6B000A03AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -469,6 +483,16 @@
 				4B726E742A166908002502E4 /* logargv.c in Sources */,
 				4B354A272A14835A00F4FF5A /* main.m in Sources */,
 				4BC67A362A1707CA004F106C /* execcl_bridge.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BBDA5B12A17C9A6003BEB68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBDA5BB2A17CAA4003BEB68 /* AppWithToolUITests.m in Sources */,
+				4BBDA5B22A17C9A6003BEB68 /* AppWithToolTests.m in Sources */,
+				4BBDA5B32A17C9A6003BEB68 /* test.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,10 +509,20 @@
 			target = 4B542C4329F88D1E000A03AF /* AppWithTool */;
 			targetProxy = 4B542C5B29F88D23000A03AF /* PBXContainerItemProxy */;
 		};
-		4B542C6729F88D23000A03AF /* PBXTargetDependency */ = {
+		4BBDA5AF2A17C9A6003BEB68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4B542C4329F88D1E000A03AF /* AppWithTool */;
-			targetProxy = 4B542C6629F88D23000A03AF /* PBXContainerItemProxy */;
+			targetProxy = 4BBDA5B02A17C9A6003BEB68 /* PBXContainerItemProxy */;
+		};
+		4BBDA5C12A17CCEE003BEB68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B542C8629F88E6B000A03AF /* ToolX */;
+			targetProxy = 4BBDA5C02A17CCEE003BEB68 /* PBXContainerItemProxy */;
+		};
+		4BBDA5C32A17CD62003BEB68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B542C8629F88E6B000A03AF /* ToolX */;
+			targetProxy = 4BBDA5C22A17CD62003BEB68 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -555,7 +589,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -608,7 +642,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -631,9 +665,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.AppWithTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Debug;
@@ -654,9 +689,10 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bitcoincore.AppWithTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Release;
@@ -668,7 +704,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = QP9MSC9X74;
 				INFOPLIST_FILE = AppWithToolTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -689,7 +725,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = QP9MSC9X74;
 				INFOPLIST_FILE = AppWithToolTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -700,44 +736,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.bitcoincore.app-with-tool.AppWithToolTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppWithTool.app/Contents/MacOS/AppWithTool";
-			};
-			name = Release;
-		};
-		4B542C7529F88D23000A03AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = AppWithToolUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.bitcoincore.app-with-tool.AppWithToolUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = AppWithTool;
-			};
-			name = Debug;
-		};
-		4B542C7629F88D23000A03AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = AppWithToolUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.bitcoincore.app-with-tool.AppWithToolUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = AppWithTool;
 			};
 			name = Release;
 		};
@@ -779,6 +777,48 @@
 			};
 			name = Release;
 		};
+		4BBDA5B72A17C9A6003BEB68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QP9MSC9X74;
+				INFOPLIST_FILE = AppWithToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.bitcoincore.app-with-tool.AppWithUIToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppWithTool.app/Contents/MacOS/AppWithTool";
+			};
+			name = Debug;
+		};
+		4BBDA5B82A17C9A6003BEB68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QP9MSC9X74;
+				INFOPLIST_FILE = AppWithToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.bitcoincore.app-with-tool.AppWithUIToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppWithTool.app/Contents/MacOS/AppWithTool";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -789,7 +829,7 @@
 				4B542C6D29F88D23000A03AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		4B542C6E29F88D23000A03AF /* Build configuration list for PBXNativeTarget "AppWithTool" */ = {
 			isa = XCConfigurationList;
@@ -798,7 +838,7 @@
 				4B542C7029F88D23000A03AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		4B542C7129F88D23000A03AF /* Build configuration list for PBXNativeTarget "AppWithToolTests" */ = {
 			isa = XCConfigurationList;
@@ -807,16 +847,7 @@
 				4B542C7329F88D23000A03AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4B542C7429F88D23000A03AF /* Build configuration list for PBXNativeTarget "AppWithToolUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B542C7529F88D23000A03AF /* Debug */,
-				4B542C7629F88D23000A03AF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		4B542C8B29F88E6B000A03AF /* Build configuration list for PBXNativeTarget "ToolX" */ = {
 			isa = XCConfigurationList;
@@ -825,7 +856,16 @@
 				4B542C8D29F88E6B000A03AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
+		};
+		4BBDA5B62A17C9A6003BEB68 /* Build configuration list for PBXNativeTarget "AppWithToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BBDA5B72A17C9A6003BEB68 /* Debug */,
+				4BBDA5B82A17C9A6003BEB68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

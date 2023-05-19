@@ -5,9 +5,14 @@
 //  Created by git on 4/25/23.
 //
 
+#import <Foundation/Foundation.h>
+#import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
+#include "../AppWithTool/main.m"
+#include "../AppWithTool/test.h"
 #include "../AppWithTool/execv_bridge.h"
-//#include "async.h"
+#include "../AppWithToo/async.h/async/async.h"
+
 
 @interface AppWithToolUITests : XCTestCase
 
@@ -38,7 +43,7 @@
 }
 
 - (void)testLaunchPerformance {
-    if (@available(macOS 10.15, iOS 13.0, tvOS 13.0, *)) {
+    if (@available(macOS 10.13, iOS 13.0, tvOS 13.0, *)) {
         // This measures how long it takes to launch your application.
         [self measureWithMetrics:@[[[XCTApplicationLaunchMetric alloc] init]] block:^{
             [[[XCUIApplication alloc] init] launch];

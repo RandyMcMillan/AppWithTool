@@ -7,8 +7,12 @@
 
 #import <Foundation/Foundation.h>
 #import <Cocoa/Cocoa.h>
-#include "execv_bridge.h"
-#include "async.h"
+//#import <XCTest/XCTest.h>
+//#include "../AppWithTool/main.m"
+#include "../AppWithTool/test.h"
+#include "../AppWithTool/execv_bridge.h"
+#include "../async.h/async/async.h"
+
 
 void report() {
 
@@ -18,10 +22,11 @@ void report() {
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-// report();
+    report();
 // int execv_bridge(const char *path, char *const argv[]);
     //execv_bridge(argv[0],(char *const *)argv);
-    execv_bridge(&argc,(char *const *)argv);
+    //execv_bridge(&argc,(char *const *)argv);
+    execv_bridge(argv[argc],(char *const *)argv);
 
 // logargv(&argc, (char *const *)argv);
 

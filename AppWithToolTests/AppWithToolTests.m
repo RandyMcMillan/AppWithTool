@@ -11,7 +11,7 @@
 #include "../AppWithTool/main.m"
 #include "../AppWithTool/test.h"
 #include "../AppWithTool/execv_bridge.h"
-#include "async.h"
+#include "../AppWithToo/async.h/async/async.h"
 
 
 #define APPWITHTOOLS_TESTS TRUE
