@@ -14,8 +14,7 @@
 		4B354A272A14835A00F4FF5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C8929F88E6B000A03AF /* main.m */; };
 		4B354A382A14841200F4FF5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B354A132A1482B100F4FF5A /* Foundation.framework */; };
 		4B354A392A14841800F4FF5A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B354A192A14830000F4FF5A /* Cocoa.framework */; };
-		4B354A772A14929200F4FF5A /* template.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4B354A762A14929200F4FF5A /* template.sh */; };
-		4B354A7C2A1492A200F4FF5A /* template.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B354A762A14929200F4FF5A /* template.sh */; };
+		4B354A7C2A1492A200F4FF5A /* template.sh in Copy to Shared Support */ = {isa = PBXBuildFile; fileRef = 4B354A762A14929200F4FF5A /* template.sh */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4B542C4929F88D1F000A03AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C4829F88D1F000A03AF /* AppDelegate.m */; };
 		4B542C4C29F88D1F000A03AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C4B29F88D1F000A03AF /* ViewController.m */; };
 		4B542C4E29F88D22000A03AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B542C4D29F88D22000A03AF /* Assets.xcassets */; };
@@ -23,10 +22,9 @@
 		4B542C5F29F88D23000A03AF /* AppWithToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C5E29F88D23000A03AF /* AppWithToolTests.m */; };
 		4B542C6A29F88D23000A03AF /* AppWithToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B542C6929F88D23000A03AF /* AppWithToolUITests.m */; };
 		4B542CBE29F89419000A03AF /* ToolX in Embed Helper Tools */ = {isa = PBXBuildFile; fileRef = 4B542C8729F88E6B000A03AF /* ToolX */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4B5C4C042A1FBD8400D7ADAC /* SanJuanGoddess.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B5C4C032A1FBD8400D7ADAC /* SanJuanGoddess.jpg */; };
 		4B5C4C052A1FBD8400D7ADAC /* SanJuanGoddess.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B5C4C032A1FBD8400D7ADAC /* SanJuanGoddess.jpg */; };
 		4B5C4C062A1FBD8400D7ADAC /* SanJuanGoddess.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B5C4C032A1FBD8400D7ADAC /* SanJuanGoddess.jpg */; };
-		4B5C4C0B2A1FBDA400D7ADAC /* SanJuanGoddess.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B5C4C032A1FBD8400D7ADAC /* SanJuanGoddess.jpg */; };
+		4B5C4C0B2A1FBDA400D7ADAC /* SanJuanGoddess.jpg in Copy to Shared Support */ = {isa = PBXBuildFile; fileRef = 4B5C4C032A1FBD8400D7ADAC /* SanJuanGoddess.jpg */; };
 		4B726E692A1662D2002502E4 /* execv_bridge.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B726E682A1662D2002502E4 /* execv_bridge.c */; };
 		4B726E6A2A1662D2002502E4 /* execv_bridge.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B726E682A1662D2002502E4 /* execv_bridge.c */; };
 		4B726E732A166908002502E4 /* logargv.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B726E722A166908002502E4 /* logargv.c */; };
@@ -36,9 +34,9 @@
 		4B726E7B2A169178002502E4 /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B726E7A2A169178002502E4 /* test.c */; };
 		4BC67A362A1707CA004F106C /* execcl_bridge.c in Sources */ = {isa = PBXBuildFile; fileRef = 4BC67A342A1707CA004F106C /* execcl_bridge.c */; };
 		4BC67A432A170874004F106C /* execcl_bridge.c in Sources */ = {isa = PBXBuildFile; fileRef = 4BC67A342A1707CA004F106C /* execcl_bridge.c */; };
-		4BD59FEF2A1444880041CB20 /* Script.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4BD59FE82A1444420041CB20 /* Script.sh */; };
+		4BD59FEF2A1444880041CB20 /* Script.sh in Copy to Shared Support */ = {isa = PBXBuildFile; fileRef = 4BD59FE82A1444420041CB20 /* Script.sh */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4BD5A0142A1449D00041CB20 /* ToolX in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B542C8729F88E6B000A03AF /* ToolX */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4BD5A0252A144A6B0041CB20 /* ToolX in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B542C8729F88E6B000A03AF /* ToolX */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4BD5A0252A144A6B0041CB20 /* ToolX in Copy to Shared Support */ = {isa = PBXBuildFile; fileRef = 4B542C8729F88E6B000A03AF /* ToolX */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,17 +85,18 @@
 			name = "Embed Helper Tools";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BD59FEE2A1444690041CB20 /* CopyFiles */ = {
+		4BD59FEE2A1444690041CB20 /* Copy to Shared Support */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 12;
 			files = (
-				4B5C4C0B2A1FBDA400D7ADAC /* SanJuanGoddess.jpg in CopyFiles */,
-				4B354A7C2A1492A200F4FF5A /* template.sh in CopyFiles */,
-				4BD5A0252A144A6B0041CB20 /* ToolX in CopyFiles */,
-				4BD59FEF2A1444880041CB20 /* Script.sh in CopyFiles */,
+				4B5C4C0B2A1FBDA400D7ADAC /* SanJuanGoddess.jpg in Copy to Shared Support */,
+				4B354A7C2A1492A200F4FF5A /* template.sh in Copy to Shared Support */,
+				4BD5A0252A144A6B0041CB20 /* ToolX in Copy to Shared Support */,
+				4BD59FEF2A1444880041CB20 /* Script.sh in Copy to Shared Support */,
 			);
+			name = "Copy to Shared Support";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -226,9 +225,9 @@
 				4B542C4F29F88D22000A03AF /* Main.storyboard */,
 				4B542C5229F88D22000A03AF /* Info.plist */,
 				4B542C5329F88D22000A03AF /* main.m */,
-				4B726E752A166D88002502E4 /* logargc.h */,
 				4BC67A242A170789004F106C /* execcl_bridge.h */,
 				4BC67A342A1707CA004F106C /* execcl_bridge.c */,
+				4B726E752A166D88002502E4 /* logargc.h */,
 				4B726E762A166D88002502E4 /* logargc.c */,
 				4B726E712A166908002502E4 /* logargv.h */,
 				4B726E722A166908002502E4 /* logargv.c */,
@@ -291,9 +290,9 @@
 				4B542C4029F88D1E000A03AF /* Sources */,
 				4B542C4129F88D1E000A03AF /* Frameworks */,
 				4B542C4229F88D1E000A03AF /* Resources */,
-				4BD59FEE2A1444690041CB20 /* CopyFiles */,
+				4BD59FEE2A1444690041CB20 /* Copy to Shared Support */,
 				4B542CB529F89373000A03AF /* Embed Helper Tools */,
-				4B542CC729F89763000A03AF /* Run Script */,
+				4B542CC729F89763000A03AF /* hexdumps */,
 			);
 			buildRules = (
 			);
@@ -409,8 +408,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B542C4E29F88D22000A03AF /* Assets.xcassets in Resources */,
-				4B354A772A14929200F4FF5A /* template.sh in Resources */,
-				4B5C4C042A1FBD8400D7ADAC /* SanJuanGoddess.jpg in Resources */,
 				4B542C5129F88D22000A03AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +431,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4B542CC729F89763000A03AF /* Run Script */ = {
+		4B542CC729F89763000A03AF /* hexdumps */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -444,7 +441,7 @@
 			inputPaths = (
 				"$(SRCROOT)/AppWithTool.app",
 			);
-			name = "Run Script";
+			name = hexdumps;
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -772,10 +769,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ToolX/ToolXDebug.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QP9MSC9X74;
+				DEVELOPMENT_TEAM = M684FYCYG6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INSTALL_PATH = /usr/bin;
 				OTHER_CODE_SIGN_FLAGS = "$(inherited) -i $(PRODUCT_BUNDLE_IDENTIFIER)";
@@ -791,10 +788,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ToolX/ToolX.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QP9MSC9X74;
+				DEVELOPMENT_TEAM = M684FYCYG6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INSTALL_PATH = /usr/bin;
 				OTHER_CODE_SIGN_FLAGS = "$(inherited) -i $(PRODUCT_BUNDLE_IDENTIFIER)";
