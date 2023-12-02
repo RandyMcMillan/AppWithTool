@@ -15,16 +15,16 @@
 
 void report() {
 
-    printf("ToolX\n");
+    printf("ToolX:report()\n");
 
 }
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-// report();
+    report();
 // int execv_bridge(const char *path, char *const argv[]);
     //execv_bridge(argv[0],(char *const *)argv);
-    execv_bridge(&argc,(char *const *)argv);
+    //execv_bridge(&argc,(char *const *)argv);
 
 // logargv(&argc, (char *const *)argv);
 
