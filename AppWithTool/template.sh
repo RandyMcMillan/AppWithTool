@@ -1,5 +1,18 @@
 #!/bin/sh
+DATE=$(date +%s)
+PID=$$
 
-echo "template.sh"
-type -P bash
-type -P ls && ls /bin && echo `pwd`
+echo $DATE/$PID
+echo $(( $DATE + $PID ))
+echo $(( $DATE ^ $PID ))
+echo $(( $DATE / $PID ))
+echo $(( $PID  / $DATE ))
+
+echo $PWD
+echo $0
+echo "\$\$=$$"
+test whoami && whoami
+echo PATH=$PATH
+test git && which git
+test make && which make
+test bash && which bash
