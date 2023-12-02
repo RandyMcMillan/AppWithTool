@@ -8,7 +8,7 @@
 #include "logargc.h"
 
 int logargc(int *count){
-    // printf("logargc:\n");
+    printf("logargc.c:\n");
     printf("argc=%d\n",*count);
     return *count;
     
