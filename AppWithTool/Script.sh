@@ -2,15 +2,15 @@
 # Initialize global variables.
 {
   declare SCRIPT_INVOKED_NAME="${BASH_SOURCE[${#BASH_SOURCE[@]}-1]}"
-  ##export  SCRIPT_INVOKED_NAME
+  export  SCRIPT_INVOKED_NAME
   declare SCRIPT_NAME="${SCRIPT_INVOKED_NAME##*/}"
-  ##export  SCRIPT_NAME
+  export  SCRIPT_NAME
   declare SCRIPT_INVOKED_PATH="$( dirname "${SCRIPT_INVOKED_NAME}" )"
-  ##export  SCRIPT_INVOKED_PATH
+  export  SCRIPT_INVOKED_PATH
   declare SCRIPT_PATH="$( cd "${SCRIPT_INVOKED_PATH}"; pwd )"
-  ##export  SCRIPT_PATH
+  export  SCRIPT_PATH
   declare SCRIPT_RUN_DATE="$( date +%s )"
-  ##export  SCRIPT_RUN_DATE
+  export  SCRIPT_RUN_DATE
   
 if [ ! -n DEBUG ];then
   echo "\nSCRIPT_INVOKED_NAME="$SCRIPT_INVOKED_NAME
